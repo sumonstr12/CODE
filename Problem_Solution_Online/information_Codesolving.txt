@@ -1,0 +1,11 @@
+
+sortings : 
+-> O(n^2) -- bubble sort,selection sort,insertion sort --> avoid in contest.
+-> O(n log n) -- merge sort,quick sort,heap sort --> moderate
+-> O(n) -- Counting sort,Radix sort,Bucket sort --> best for contest  (section 9.32)
+
+Search :
+-> O(n) -- Linear Search
+-> O(log n) -- Binary Search
+-> O(1) -- Hashing
+

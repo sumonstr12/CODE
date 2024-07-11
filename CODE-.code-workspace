@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Learn_WIth_OStad"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Learn_WIth_OStad"
+	}
+}
