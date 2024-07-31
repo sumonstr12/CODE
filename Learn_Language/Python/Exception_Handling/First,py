@@ -1,0 +1,32 @@
+
+def Divide(number):
+    return 10/number
+a = 0
+try:
+    Divide(a)
+except ZeroDivisionError:
+    print("Got the exception.")
+
+try:
+    Divide(0)
+except:
+    print("Error facing.")
+
+finally:
+    print("Solve the error/continue.")
+
+
+# User-defined exceptions
+class Bad(Exception):
+    pass
+
+def doomed():
+    raise Bad()
+
+try:
+    doomed()
+except Bad:
+    print("Error.!!")
+
+
+
