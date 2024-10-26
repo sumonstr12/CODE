@@ -1,0 +1,7 @@
+
+For ignore some files, directories, or all same type extensions....
+
+---------- example -----------
+Ignore specific files: config.py
+Ignore directories: node_modules/
+Ignore by extension: *.log (ignores all .log files)
