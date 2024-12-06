@@ -31,6 +31,12 @@ public:
     
 };
 
+/**
+ * The main function creates a string and an instance of a Solution class to check if the string
+ * contains valid parentheses.
+ * 
+ * @return The `main` function is returning 0.
+ */
 int main() {
     string s = "()[]{}";
     Solution sol;
