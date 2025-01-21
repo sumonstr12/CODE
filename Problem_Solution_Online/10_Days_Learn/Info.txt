@@ -1,0 +1,12 @@
+
+
+Session - 01:(Number theory)
+1. Modular Arithmetic
+    (a + b) mod m = [(a mod m) + (b mod m)] mod m
+    (a * b) mod m = [(a mod m) * (b mod m)] mod m
+2. Prime numbers
+3. Greatest Common divisor - GCD(a,b) * LCM(a,b) = a * b
+
+
+
+session - 02: (Strings)
