@@ -5,24 +5,26 @@ using namespace std;
 
 void solve(){
     int n;
-    cin>> n;
-    vector<int> a(n);
-    for (int i = 0; i < n; i++)
-    {
-        cin >> a[i];
-    }
-    sort(a.begin(), a.end());   
-    cout << a[0] << " ";
-    for (int i = 1; i < n; i++)
-    {
-        if(a[i] == a[i-1]){
-            cout << a[i] << " ";
+    cin >> n;
+    string s;
+    cin >> s;
+    int u = 0, l = 0;
+    for(auto c : s){
+        if(c == '-'){
+            u++;
         }
         else{
-            cout << a[i] << " ";
+            l++;
         }
     }
-    
+    if(u < 2 || l == 0){
+        cout << "0" << endl;
+        return;
+    }else{
+        ll ans = pow(u, 2);
+        
+        cout << (ans/4) * l << endl;
+    }
 }
 int main(){
     ios_base::sync_with_stdio(0);

@@ -4,25 +4,25 @@ using namespace std;
 #define ll long long
 
 void solve(){
-    int n;
-    cin>> n;
-    vector<int> a(n);
-    for (int i = 0; i < n; i++)
+    ll n;
+    cin >> n;
+    int count = 0;
+    while (n != 1)
     {
-        cin >> a[i];
-    }
-    sort(a.begin(), a.end());   
-    cout << a[0] << " ";
-    for (int i = 1; i < n; i++)
-    {
-        if(a[i] == a[i-1]){
-            cout << a[i] << " ";
+        if(n%6 == 0){
+            n /= 6;
+            count++;
         }
         else{
-            cout << a[i] << " ";
+            n *= 2;
+            count++;
+        }
+        if(n < 1){
+            cout << -1 << endl;
+            return;
         }
     }
-    
+    cout << count << endl;
 }
 int main(){
     ios_base::sync_with_stdio(0);
