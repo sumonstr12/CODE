@@ -6,16 +6,12 @@ using namespace std;
 void solve(){
     int n;
     cin>>n;
-    vector<int> a(n),b(n);
-    for(int i = 0; i<n; i++){
-        cin>>a[i];
-    }
-    for(int i = 0; i<n; i++){
-        cin>>b[i];
-    }
+    int a, b;
+
     vector<pair<int, int>> v;
     for(int i = 0; i<n; i++){
-        v.push_back({a[i], b[i]});
+        cin>>a>>b;
+        v.push_back({a, b});
     }
     sort(v.begin(), v.end());
     for(int i = 1; i<n; i++){
