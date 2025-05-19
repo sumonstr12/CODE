@@ -1,0 +1,11 @@
+After changing some data in code and push to the repository,
+then i need to follows some steps:
+
+1 . git add .
+2 . git commit -m "......"
+3 . git push
+
+
+end......
+
+Happy coding.

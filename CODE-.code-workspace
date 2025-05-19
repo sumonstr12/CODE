@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Learn_WIth_OStad"
+		},
+		{
+			"path": "../Git - Clone"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Learn_WIth_OStad",
+		"files.associations": {
+			"ostream": "cpp"
+		}
+	}
+}

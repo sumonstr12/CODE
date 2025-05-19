@@ -1,0 +1,5 @@
+
+
+-> assert diye error handling kora hoi
+-> __init__ is a constructor in python
+-> 

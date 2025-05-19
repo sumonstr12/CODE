@@ -1,0 +1,29 @@
+
+int gcd(int a, int b){
+    if (b == 0) return a;
+    return gcd(b, a % b);
+}
+
+Alternative---
+
+cout<< __gcd(a,b) <<endl;
+
+// this is the build-in function
+
+int lcm(int a, int b){
+    return a / gcd(a,b) * b;
+}
+
+
+jkn gcd korbo tkn hbe---
+
+12,30
+12)30(1
+   12)12(1
+      12
+      --
+      0
+
+tai GCD 12
+
+ar LCM e sobcheye jeta kom anek jeta diye a,b doitakei divided kora possible....setai ans
